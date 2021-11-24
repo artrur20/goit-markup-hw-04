@@ -124,15 +124,28 @@ button {
     line-height: 1.15;
     letter-spacing: 0.02em;
     color: var(--first-text-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .header-contacts:hover {
     color: var(--logo-hover-color);
 }
 
+.header-contacts:hover .header-address-icon {
+   fill: var(--logo-hover-color);
+}
 
+.header-address-icon {
+    margin-right: 10px;
+}
 
 .hero  {
-    background-color: #2F303A;
+    background-color: #2F303A66;
+    background-image: linear-gradient(#2F303A66,rgba(47, 48, 58, 0.4)),url(../images/hero-fon.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
     
 
