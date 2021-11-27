@@ -136,6 +136,7 @@ button {
 
 .header-address-icon {
     margin-right: 10px;
+    fill: #757575;
 }
 
 .hero  {
@@ -144,6 +145,8 @@ button {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    max-width: 1600px;
+    margin: 0 auto;
 }
     
 
@@ -182,6 +185,7 @@ button {
     border-radius: 4px;
     justify-content: center;
     margin: auto;
+    border: none;
 }
 
 
@@ -371,22 +375,14 @@ border-radius: 0px 0px 4px 4px;
     padding-bottom: 60px;
 }
 .footer-conteiner {
-    justify-content: center;
-}
-
-.footer-list {
     display: flex;
 }
 
-.footer-item {
+.footer-left {
     margin-right: 70px;
 }
 
-.footer-item:last-child {
-    margin-right: 0;
-}
-
-.footer-text {
+.footer-third-title {
     font-style: bold;
     font-size: 14px;
     line-height: 1,14;
@@ -534,9 +530,15 @@ border-radius: 0px 0px 4px 4px;
 .second-content-item {
     margin-right: 30px;
     margin-top: 30px;
+    border: 1px solid rgba(238, 238, 238, 1);
 }
 .second-content-item:last-child {
     margin-right: 0;
+}
+.second-content-item:hover {
+    box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.06);
+    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
 }
 
 .second-content-title {
